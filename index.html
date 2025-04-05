@@ -15,16 +15,18 @@
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g clip-path="url(#clip0_429_11066)"> <path d="M3 6.00092H21M3 12.0009H21M3 18.0009H21" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> </g> <defs> <clipPath id="clip0_429_11066"> <rect width="24" height="24" fill="white" transform="translate(0 0.000915527)"></rect> </clipPath> </defs> </g></svg>
         </div>
         
-        <nav class="desktop-menu ">
+        <nav class="desktop-menu">
                 <a href="/" class="navlink active">Home</a>
-                <a href="#about" class="nav-link">Portfolio</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Portfolio</a>
                 <a href="#contact" class="nav-link">Contact</a>
         </nav>
 
-        <nav class="mobile-menu ">
-                <a href="/" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">Portfolio</a>
-                <a href="#contact" class="nav-link">Contact</a>
+        <nav class="mobile-menu">
+            <a href="/" class="navlink active">Home</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </nav>
     </header>
 
@@ -41,7 +43,7 @@
                     Skilled in building responsive, interactive websites using HTML, CSS, and JavaScript. Experienced in backend logic with Python and database management using SQL. Strong focus on clean code, performance optimization, and user-friendly design. Combines frontend aesthetics with functional backend systems for full-featured web solutions.</p>
             </div>
             <div class="right-container">
-                <div class="skills-container">
+                <div id="skills" class="skills-container">
                     <h2>Skills</h2>
                     <div class="skills-logo">
                         <img src="https://img.icons8.com/color/512/html-5.png" alt="HTML">
@@ -51,18 +53,45 @@
                         <img src="./sql-logo.png" alt="sql">
                     </div>
                 </div>
-                <div class="projects-container">
+                <div id="projects" class="projects-container">
                     <h2>Projects</h2>
 
-                    <img src="https://img.icons8.com/color/512/html-5.png" width="100" alt="HTML">
-                    <img src="./css3.png" width="100" alt="CSS">
-                    <img src="./javascript-logo.png" width="100" alt="javascript">
-                    <img src="./python.png" width="100" alt="python">
-                    <img src="./sql-logo.png" width="100" alt="sql">
+                    <div class="projects">
+                        <div class="project">
+                            <h3>AI Chatbot </h3>
+                            <p>A powerful, conversational AI assistant built to deliver instant, accurate, and human-like responses. Leveraging natural language processing (NLP), it understands and adapts to user queries, providing helpful answers, recommendations, and support. Whether for customer service, education, or entertainment, this chatbot enhances engagement with seamless, intelligent interactions.</p>
+                        </div>
+                        <div class="project">
+                            <h3>Expense Tracker</h3>
+                            <p>A simple yet powerful tool to track, analyze, and optimize your spending. Log expenses on-the-go, categorize transactions, and generate insightful reports—all in one place. Take control of your finances with intuitive budgeting and real-time expense monitoring.</p>
+                        </div>
+                        <div class="project">
+                            <h3>Movie Recommendation System</h3>
+                            <p>Discover your next favorite film with AI-powered recommendations! This system analyzes your preferences, ratings, and viewing history to suggest personalized movies and shows you’ll love. Whether you're into classics, thrillers, or hidden gems, get tailored picks instantly.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+
+    <footer id="contact">
+        <h4>Contact Me</h4>
+        <ul>
+           <li>
+            Email:
+            <a href="mailto:axxxxfw@gmail.com">axxxxfw@gmail.com</a>
+           </li>
+           <li>
+            Twitter:
+            <a href="https://twitter.com">https://twitter.com</a>
+           </li>
+           <li>
+            Linkedin:
+            <a href="https://linkedin.com">https://linkedin.com</a>
+           </li>
+        </ul>
+    </footer>
 
     <script src="script.js"></script>
 </body>
